@@ -1,0 +1,14 @@
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\Management.deps.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\Management.runtimeconfig.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\Management.runtimeconfig.dev.json
+C:\Users\Chetan Choudhari\source\repos\Management\Management\bin\Debug\netcoreapp2.1\Management.dll
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.csprojAssemblyReference.cache
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.RazorAssemblyInfo.cache
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.RazorAssemblyInfo.cs
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.AssemblyInfoInputs.cache
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.AssemblyInfo.cs
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.RazorTargetAssemblyInfo.cache
+C:\Users\Chetan Choudhari\source\repos\Management\Management\obj\Debug\netcoreapp2.1\Management.genruntimeconfig.cache
