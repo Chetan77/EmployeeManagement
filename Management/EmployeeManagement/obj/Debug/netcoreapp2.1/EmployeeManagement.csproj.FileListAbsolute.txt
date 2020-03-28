@@ -1,0 +1,17 @@
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.deps.json
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.runtimeconfig.json
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.runtimeconfig.dev.json
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.dll
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.pdb
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeModel.dll
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\Repository.dll
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeModel.pdb
+E:\BridgeLabz\Management\EmployeeManagement\bin\Debug\netcoreapp2.1\Repository.pdb
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csprojAssemblyReference.cache
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.AssemblyInfoInputs.cache
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.AssemblyInfo.cs
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CopyComplete
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.dll
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.pdb
+E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.genruntimeconfig.cache
