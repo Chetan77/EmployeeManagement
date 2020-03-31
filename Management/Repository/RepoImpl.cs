@@ -1,4 +1,5 @@
 ﻿using EmployeeModel.EmployeeModel;
+using Repository.DBContext;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,29 +9,47 @@ namespace Repository
 {
     public class RepoImpl : IRepo
     {
-        public Employee DeleteEmployee(int empId)
+        private readonly UserDBContext userDBContext;
+
+        public RepoImpl(UserDBContext userDBContext)
         {
-            throw new NotImplementedException();
+            this.userDBContext = userDBContext;
+        }
+        public Task<int> RegisterEmployee(Employee employee)
+        {
+            userDBContext.Employees.Add(employee);
+            var result = userDBContext.SaveChangesAsync();
+            return result;
         }
 
-        public Employee GetEmployee(int empId)
+        public Employee DeleteEmployee(int id)
         {
-            throw new NotImplementedException();
+            Employee employee = userDBContext.Employees.Find(id);
+            if (employee != null)
+            {
+                userDBContext.Employees.Remove(employee);
+                userDBContext.SaveChanges();
+            }
+            return employee;
+
         }
 
         public IEnumerable<Employee> GetAllEmployees()
         {
-            throw new NotImplementedException();
+            return userDBContext.Employees;
         }
 
-        public Task<int> RegisterEmployee(Employee employee)
+        public Employee GetEmployee(int id)
         {
-            throw new NotImplementedException();
+            return userDBContext.Employees.Find(id);
         }
 
-        public Task<int> UpdateEmployee(Employee employee)
+        public Task<int> UpdateEmployee(Employee employeeChanges)
         {
-            throw new NotImplementedException();
+            var employee = userDBContext.Employees.Attach(employeeChanges);
+            employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            var result = userDBContext.SaveChangesAsync();
+            return result;
         }
     }
 }

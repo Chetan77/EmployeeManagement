@@ -43,9 +43,16 @@ namespace Management
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseSwagger();
+           /* app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(@"swagger/v1/E:\BridgeLabz\Management\Management\Properties\launchSettings.json", "My API Version 1");
+            });*/
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "myapi v1"); });
             }
             else
             {
