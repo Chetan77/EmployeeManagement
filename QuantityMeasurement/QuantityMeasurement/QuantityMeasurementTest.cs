@@ -71,5 +71,12 @@ namespace QuantityMeasurement
             bool act = inch.Equals(inch);
             Assert.IsTrue(act);
         }
+        [Test]
+        public void TestFor_InchTypeCheck_ShouldReturnTrueOrFalse()
+        {
+            Inch inch = new Inch();
+            bool act = inch.Equals(inch.GetType());
+            Assert.IsTrue(act);
+        }
     }
 }
