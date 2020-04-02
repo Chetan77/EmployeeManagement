@@ -17,5 +17,14 @@ namespace QuantityMeasurementImplementation
         {
             return this.length = length;
         }
+        // override object.Equals
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
