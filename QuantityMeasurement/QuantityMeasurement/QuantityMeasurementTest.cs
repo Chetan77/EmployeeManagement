@@ -27,5 +27,12 @@ namespace QuantityMeasurement
             bool act=feet.Equals(null);
             Assert.IsTrue(act);
         }
+        [Test]
+        public void TestFor_ReferenceCheck_ShouldReturnTrueOrFalse()
+        {
+            Feet feet = new Feet();
+            bool act = feet.Equals(feet);
+            Assert.IsTrue(act);
+        }
     }
 }
