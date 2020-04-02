@@ -64,5 +64,12 @@ namespace QuantityMeasurement
             bool act = inch.Equals(null);
             Assert.IsTrue(act);
         }
+        [Test]
+        public void TestFor_InchReferenceCheck_ShouldReturnTrueOrFalse()
+        {
+            Inch inch = new Inch();
+            bool act = inch.Equals(inch);
+            Assert.IsTrue(act);
+        }
     }
 }
