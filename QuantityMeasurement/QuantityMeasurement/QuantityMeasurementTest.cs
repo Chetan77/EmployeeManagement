@@ -50,5 +50,12 @@ namespace QuantityMeasurement
             double act =feet.CheckForEqual(0);
             Assert.AreEqual(0,act);
         }
+        [Test]
+        public void GivenZeroToInch_ZeroInchShouldRetorn_Equality()
+        {
+            Inch inch = new Inch();
+            double act=inch.CheckForEquality(0);
+            Assert.AreEqual(0, act);
+        }
     }
 }

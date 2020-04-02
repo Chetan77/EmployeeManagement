@@ -4,11 +4,17 @@ using System.Text;
 
 namespace QuantityMeasurementImplementation
 {
-    class Inch
+    public class Inch
     {
+        private double inchValue;
+
         public Inch()
         {
+        }
 
+        public double CheckForEquality(double inchVlaue)
+        {
+            return this.inchValue = inchVlaue;
         }
     }
 }
