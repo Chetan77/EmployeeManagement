@@ -1,0 +1,13 @@
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.exe
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.deps.json
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.runtimeconfig.json
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.runtimeconfig.dev.json
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.dll
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\bin\Debug\netcoreapp3.1\QuantityMeasurementImplementation.pdb
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.csprojAssemblyReference.cache
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.csproj.CoreCompileInputs.cache
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.AssemblyInfoInputs.cache
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.AssemblyInfo.cs
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.dll
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.pdb
+C:\Users\Chetan Choudhari\source\repos\QuantityMeasurement\QuantityMeasurementImplementation\obj\Debug\netcoreapp3.1\QuantityMeasurementImplementation.genruntimeconfig.cache

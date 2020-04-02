@@ -1,4 +1,0 @@
-E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache
-E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
-E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.AssemblyInfoInputs.cache
-E:\BridgeLabz\Management\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.AssemblyInfo.cs
