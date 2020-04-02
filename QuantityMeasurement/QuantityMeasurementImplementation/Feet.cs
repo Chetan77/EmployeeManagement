@@ -20,7 +20,7 @@ namespace QuantityMeasurementImplementation
         // override object.Equals
         public override bool Equals(object obj)
         {
-            if (obj == null || object.ReferenceEquals(obj, this))
+            if (obj == null || object.ReferenceEquals(obj, this) || obj.Equals(this.GetType()))
             {
                 return true;
             }

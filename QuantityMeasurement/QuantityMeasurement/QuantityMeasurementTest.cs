@@ -34,5 +34,13 @@ namespace QuantityMeasurement
             bool act = feet.Equals(feet);
             Assert.IsTrue(act);
         }
+
+        [Test]
+        public void TestFor_TypeCheck_ShouldReturnTrueOrFalse()
+        {
+            Feet feet = new Feet();
+            bool act = feet.Equals(feet.GetType());
+            Assert.IsTrue(act);
+        }
     }
 }
