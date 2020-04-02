@@ -16,5 +16,14 @@ namespace QuantityMeasurementImplementation
         {
             return this.inchValue = inchVlaue;
         }
+        // override object.Equals
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
