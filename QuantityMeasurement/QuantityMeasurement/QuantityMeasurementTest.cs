@@ -20,5 +20,12 @@ namespace QuantityMeasurement
             double act=feet.CheckForEqual(0);
             Assert.AreEqual(0, act);
         }
+        [Test]
+        public void TestFor_EqualityNullCheck_ShouldReturnTrueOrFalse()
+        {
+            Feet feet = new Feet();
+            bool act=feet.Equals(null);
+            Assert.IsTrue(act);
+        }
     }
 }

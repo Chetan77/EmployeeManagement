@@ -4650,11 +4650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chetan Choudhari\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
+      "projectUniqueName": "E:\\BridgeLabz\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
       "projectName": "QuantityMeasurement",
-      "projectPath": "C:\\Users\\Chetan Choudhari\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
+      "projectPath": "E:\\BridgeLabz\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
       "packagesPath": "C:\\Users\\Chetan Choudhari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chetan Choudhari\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\obj\\",
+      "outputPath": "E:\\BridgeLabz\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -4674,8 +4674,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Chetan Choudhari\\source\\repos\\QuantityMeasurement\\QuantityMeasurementImplementation\\QuantityMeasurementImplementation.csproj": {
-              "projectPath": "C:\\Users\\Chetan Choudhari\\source\\repos\\QuantityMeasurement\\QuantityMeasurementImplementation\\QuantityMeasurementImplementation.csproj"
+            "E:\\BridgeLabz\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurementImplementation\\QuantityMeasurementImplementation.csproj": {
+              "projectPath": "E:\\BridgeLabz\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurementImplementation\\QuantityMeasurementImplementation.csproj"
             }
           }
         }
