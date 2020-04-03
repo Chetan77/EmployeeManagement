@@ -6,16 +6,20 @@ namespace QuantityMeasurementImplementation
 {
     public class Feet
     {
-        private double length;
+        double length;
 
-        public Feet()
+        public Feet(double length)
         {
-
+            this.length = length;
         }
 
-        public double CheckForEqual(double length)
+        public bool CheckForEqual(Feet length)
         {
-            return this.length = length;
+            if (this.length.Equals(length.length))
+            {
+                return true;
+            }
+            return false;
         }
         // override object.Equals
         public override bool Equals(object obj)
