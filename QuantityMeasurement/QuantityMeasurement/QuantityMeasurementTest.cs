@@ -183,6 +183,33 @@ namespace QuantityMeasurement
             bool act = kiloGram.CheckForEqual(kiloGram);
             Assert.IsTrue(act);
         }
-
+        [Test]
+        public void GivenNullToGramEqualityNullCheck_ShouldReturnTrueOrFalse()
+        {
+            Gram gram = new Gram(0);
+            bool act = gram.Equals(null);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenReferenceOfGram_WhenCheck_ShouldReturnTrueOrFalse()
+        {
+            Gram gram = new Gram(0);
+            bool act = gram.Equals(gram);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenGramType_TypeCheck_ShouldReturnTrueOrFalse()
+        {
+            Gram gram = new Gram(0);
+            bool act = gram.Equals(gram.GetType());
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenGramdvalue_ToEqualityInYard_ShouldReturnValueEqual()
+        {
+            Gram gram = new Gram(8);
+            bool act = gram.CheckForEqual(gram);
+            Assert.IsTrue(act);
+        }
     }
 }
