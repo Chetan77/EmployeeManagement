@@ -211,5 +211,33 @@ namespace QuantityMeasurement
             bool act = gram.CheckForEqual(gram);
             Assert.IsTrue(act);
         }
+        [Test]
+        public void GivenNullToCelciusEqualityNullCheck_ShouldReturnTrueOrFalse()
+        {
+            Celcius celcius = new Celcius(0);
+            bool act = celcius.Equals(null);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenReferenceOfCelcius_WhenCheck_ShouldReturnTrueOrFalse()
+        {
+            Celcius celcius = new Celcius(0);
+            bool act = celcius.Equals(celcius);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenCelciusType_TypeCheck_ShouldReturnTrueOrFalse()
+        {
+            Celcius celcius = new Celcius(0);
+            bool act = celcius.Equals(celcius.GetType());
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenCelciusdvalue_ToEqualityInYard_ShouldReturnValueEqual()
+        {
+            Celcius celcius = new Celcius(9);
+            bool act = celcius.CheckForEqual(celcius);
+            Assert.IsTrue(act);
+        }
     }
 }
