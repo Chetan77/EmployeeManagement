@@ -155,5 +155,34 @@ namespace QuantityMeasurement
             bool act = yard.CheckForEqual(yard);
             Assert.IsTrue(act);
         }
+        [Test]
+        public void GivenNullToKiloGramEqualityNullCheck_ShouldReturnTrueOrFalse()
+        {
+            KiloGram kiloGram = new KiloGram(0);
+            bool act = kiloGram.Equals(null);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenReferenceOfKilogram_WhenCheck_ShouldReturnTrueOrFalse()
+        {
+            KiloGram kiloGram = new KiloGram(0);
+            bool act = kiloGram .Equals(kiloGram);
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenKilogramsType_TypeCheck_ShouldReturnTrueOrFalse()
+        {
+            KiloGram kiloGram = new KiloGram(0);
+            bool act = kiloGram.Equals(kiloGram.GetType());
+            Assert.IsTrue(act);
+        }
+        [Test]
+        public void GivenKilogramdvalue_ToEqualityInYard_ShouldReturnValueEqual()
+        {
+            KiloGram kiloGram = new KiloGram(10);
+            bool act = kiloGram.CheckForEqual(kiloGram);
+            Assert.IsTrue(act);
+        }
+
     }
 }
